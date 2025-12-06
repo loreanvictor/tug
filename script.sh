@@ -301,7 +301,7 @@ status() {
 
 logs() {
   require_tug_config
-  sudo journalctl -u "$APP_NAME" -n 50 --no-pager
+  sudo journalctl -u "$APP_NAME" -n 50 -f
 }
 
 reload() {
