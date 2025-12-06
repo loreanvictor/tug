@@ -26,6 +26,10 @@ NO_COLOR="\033[0m"
 
 usage() {
   echo ""
+  echo "  ╋┓┏┏┓  "
+  echo "  ┗┗┻┗┫  "
+  echo "      ┛  "
+  echo ""
   echo -e "${COLOR_SEC}Usage:${NO_COLOR} tug <command>"
   echo ""
   echo -e "${COLOR_SEC}Commands:${NO_COLOR}"
