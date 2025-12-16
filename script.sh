@@ -311,6 +311,7 @@ logs() {
 reload() {
   require_tug_config
   sudo systemctl daemon-reload
+  restart_service
   sudo systemctl status "$APP_NAME"
 }
 
